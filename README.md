@@ -1,8 +1,7 @@
 # greenfinops
 
 ## Getting started
-1. `git clone h## Getting started
-1. `git clone 1. `git clone URL_ADDRESS.com/greenfinops/greenfinops.git`
+1. `git clone git@github.com:AdilMektoub/greenfinops.git`
 
 2. `cd greenfinops`
 
