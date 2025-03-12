@@ -69,15 +69,21 @@
     ```
 
 #### Run the container locally to test
-`docker run -p 3000:3000 greenfinops`
+   ```bash
+    docker run -p 3000:3000 greenfinops
+   ```
 
 #### For deployment to a platform like DigitalOcean or Railway, you can push to their container registry
 #### Example for DigitalOcean (after installing doctl and authenticating):
-`doctl registry login`
-
-`docker tag greenfinops registry.digitalocean.com/your-registry/greenfinops`
-
-`docker push registry.digitalocean.com/your-registry/greenfinops`
+   ```bash
+    doctl registry login
+   ```
+   ```bash
+    docker tag greenfinops registry.digitalocean.com/your-registry/greenfinops
+   ```
+   ```bash
+    docker push registry.digitalocean.com/your-registry/greenfinops
+   ```
 
 ## License
 MIT
