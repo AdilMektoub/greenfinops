@@ -18,7 +18,7 @@ const Footer = () => {
             </p>
             <div className="flex space-x-4">
               <a 
-                href="https://linkedin.com/in/yourprofile" 
+                href="https://linkedin.com/in/adilmektoub" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-eco-green transition-colors"
@@ -26,7 +26,7 @@ const Footer = () => {
                 <FiLinkedin />
               </a>
               <a 
-                href="https://github.com/yourusername" 
+                href="https://github.com/AdilMektoub" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-eco-green transition-colors"
@@ -34,7 +34,7 @@ const Footer = () => {
                 <FiGithub />
               </a>
               <a 
-                href="mailto:contact@greenfinops.com" 
+                href="mailto:adil.mektoub@gmail.com" 
                 className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-eco-green transition-colors"
               >
                 <FiMail />
@@ -78,13 +78,13 @@ const Footer = () => {
             <address className="not-italic text-gray-300">
               <p className="mb-2">Paris, France</p>
               <p className="mb-2">
-                <a href="mailto:contact@greenfinops.com" className="hover:text-eco-green transition-colors">
-                  contact@greenfinops.com
+                <a href="mailto:adil.mektoub@gmail.com" className="hover:text-eco-green transition-colors">
+                  adil.mektoub@gmail.com
                 </a>
               </p>
               <p>
                 <a href="tel:+33600000000" className="hover:text-eco-green transition-colors">
-                  +33 6 00 00 00 00
+                  +33 6 84 79 75 73
                 </a>
               </p>
             </address>

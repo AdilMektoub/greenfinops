@@ -52,8 +52,8 @@ const Contact = () => {
                 </div>
                 <div>
                   <h3 className="text-lg font-medium text-eco-dark">Email</h3>
-                  <a href="mailto:contact@greenfinops.com" className="text-gray-600 hover:text-eco-green transition-colors">
-                    contact@greenfinops.com
+                  <a href="mailto:adil.mektoub@gmail.com" className="text-gray-600 hover:text-eco-green transition-colors">
+                    adil.mektoub@gmail.com
                   </a>
                 </div>
               </div>
@@ -65,7 +65,7 @@ const Contact = () => {
                 <div>
                   <h3 className="text-lg font-medium text-eco-dark">Téléphone</h3>
                   <a href="tel:+33600000000" className="text-gray-600 hover:text-eco-green transition-colors">
-                    +33 6 00 00 00 00
+                    +33 6 84 79 75 73
                   </a>
                 </div>
               </div>
@@ -76,8 +76,8 @@ const Contact = () => {
                 </div>
                 <div>
                   <h3 className="text-lg font-medium text-eco-dark">LinkedIn</h3>
-                  <a href="https://linkedin.com/in/yourprofile" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-eco-green transition-colors">
-                    linkedin.com/in/yourprofile
+                  <a href="https://linkedin.com/in/adilmektoub" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-eco-green transition-colors">
+                    linkedin.com/in/adilmektoub
                   </a>
                 </div>
               </div>
@@ -88,8 +88,8 @@ const Contact = () => {
                 </div>
                 <div>
                   <h3 className="text-lg font-medium text-eco-dark">GitHub</h3>
-                  <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-eco-green transition-colors">
-                    github.com/yourusername
+                  <a href="https://github.com/AdilMektoub" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-eco-green transition-colors">
+                    github.com/AdilMektoub
                   </a>
                 </div>
               </div>
