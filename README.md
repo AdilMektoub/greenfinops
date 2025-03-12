@@ -28,52 +28,52 @@
 
 ### Prerequisites
 
-- Node.js 18.x or higher
-- npm or yarn
+- <img src="https://nodejs.org/static/images/favicons/favicon.ico" width="16" height="16"> Node.js 18.x or higher
+- <img src="https://static.npmjs.com/favicon.ico" width="16" height="16"> npm or yarn
 
 ### Installation
 
-1. Clone the repository
+1. 📦 Clone the repository
    ```bash
    git clone git@github.com:AdilMektoub/greenfinops.git
    ```
 
-2. Navigate to the project directory
+2. 📂 Navigate to the project directory
    ```bash
    cd greenfinops
    ```
 
-3. Install dependencies
+3. 📥 Install dependencies
    ```bash
    npm install
    ``` 
-4. Run the development server
+4. 🚀 Run the development server
    ```bash
    npm run dev
    ```
-5. Open [localhost:3000](localhost:3000](localhost:3000) with your browser to see the result.
+5. 🌐 Open [localhost:3000](localhost:3000](localhost:3000) with your browser to see the result.
 
-6. For production:
+6. 🏭 For production:
    ```bash
     npm start
    ```
 
-7. If you want use docker-compose:
+7. 🐳 If you want use docker-compose:
    ```bash
     docker-compose up
    ```
 
-8. Deploy in digital ocean:
+8. 🌊 Deploy in digital ocean:
     ```bash
      docker build -t greenfinops .
     ```
 
-#### Run the container locally to test
+#### 🧪 Run the container locally to test
    ```bash
     docker run -p 3000:3000 greenfinops
    ```
 
-#### For deployment to a platform like DigitalOcean or Railway, you can push to their container registry
+#### 🚢 For deployment to a platform like DigitalOcean or Railway, you can push to their container registry
 #### Example for DigitalOcean (after installing doctl and authenticating):
    ```bash
     doctl registry login
@@ -86,6 +86,6 @@
    ```
 
 ## License
-MIT
+📝 Adil Mektoub
 
 Made with ❤️ and ☕ by Adil Mektoub
