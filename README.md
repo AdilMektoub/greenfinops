@@ -25,5 +25,7 @@ Build the Docker image
 #### For deployment to a platform like DigitalOcean or Railway, you can push to their container registry
 #### Example for DigitalOcean (after installing doctl and authenticating):
 `doctl registry login`
+
 `docker tag greenfinops registry.digitalocean.com/your-registry/greenfinops`
+
 `docker push registry.digitalocean.com/your-registry/greenfinops`
