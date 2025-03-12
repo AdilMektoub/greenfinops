@@ -1,4 +1,5 @@
 import { FiArrowDown } from 'react-icons/fi';
+import Image from 'next/image';
 
 const Hero = () => {
   return (
@@ -10,26 +11,42 @@ const Hero = () => {
       </div>
       
       <div className="container mx-auto px-4 z-10">
-        <div className="max-w-3xl">
-          <h1 className="text-4xl md:text-6xl font-bold mb-6">
-            <span className="block">Expert DevOps/SRE</span>
-            <span className="bg-gradient-to-r from-eco-dark to-eco-green bg-clip-text text-transparent">
-              Spécialisé en Open e-Mobility
-            </span>
-          </h1>
+        <div className="flex flex-col md:flex-row items-center justify-between gap-8">
+          <div className="max-w-2xl">
+            <h1 className="text-4xl md:text-6xl font-bold mb-6">
+              <span className="block">Expert DevOps/SRE</span>
+              <span className="bg-gradient-to-r from-eco-dark to-eco-green bg-clip-text text-transparent">
+                Spécialisé en Open e-Mobility
+              </span>
+            </h1>
+            
+            <p className="text-xl md:text-2xl text-gray-700 mb-8">
+              Déploiement haute disponibilité de solutions de mobilité électrique durables et innovantes
+            </p>
+            
+            <div className="flex flex-col sm:flex-row gap-4">
+              <a href="#services" className="btn-primary flex items-center justify-center gap-2">
+                Découvrir mes services
+                <FiArrowDown className="animate-bounce" />
+              </a>
+              <a href="#contact" className="px-6 py-3 border-2 border-eco-dark text-eco-dark font-medium rounded-md hover:bg-eco-dark hover:text-white transition-all duration-300 flex items-center justify-center">
+                Me contacter
+              </a>
+            </div>
+          </div>
           
-          <p className="text-xl md:text-2xl text-gray-700 mb-8">
-            Déploiement haute disponibilité de solutions de mobilité électrique durables et innovantes
-          </p>
-          
-          <div className="flex flex-col sm:flex-row gap-4">
-            <a href="#services" className="btn-primary flex items-center justify-center gap-2">
-              Découvrir mes services
-              <FiArrowDown className="animate-bounce" />
-            </a>
-            <a href="#contact" className="px-6 py-3 border-2 border-eco-dark text-eco-dark font-medium rounded-md hover:bg-eco-dark hover:text-white transition-all duration-300 flex items-center justify-center">
-              Me contacter
-            </a>
+          {/* Your Photo - Moved more to the right */}
+          <div className="relative w-full md:w-96 h-96 mt-8 md:mt-0 md:ml-auto">
+            <div className="absolute -inset-0.5 bg-gradient-to-r from-eco-green to-tech-blue rounded-full blur opacity-75"></div>
+            <div className="relative overflow-hidden rounded-full w-full h-full border-4 border-white shadow-xl">
+              <Image 
+                src="/images/profile-photo.jpg" 
+                alt="Photo de profil" 
+                fill
+                style={{ objectFit: 'cover' }}
+                priority
+              />
+            </div>
           </div>
         </div>
       </div>
