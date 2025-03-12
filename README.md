@@ -53,10 +53,9 @@
    ```
 5. 🌐 Browser/web:
 ```bash
-   bash
    localhost:3000
    ```
-   
+
 6. 🏭 For production:
    ```bash
     npm start
