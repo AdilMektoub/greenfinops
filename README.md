@@ -38,24 +38,35 @@
    git clone git@github.com:AdilMektoub/greenfinops.git
    ```
 
-2. `cd greenfinops`
+2. Navigate to the project directory
+   ```bash
+   cd greenfinops
+   ```
 
-3. npm install`
+3. Install dependencies
+   ```bash
+   npm install
+   ``` 
+4. Run the development server
+   ```bash
+   npm run dev
+   ```
+5. Open [localhost:3000](localhost:3000](localhost:3000) with your browser to see the result.
 
-4. For development: 
-`npm run dev`
+6. For production:
+   ```bash
+    npm start
+   ```
 
-`npm run build`
+7. If you want use docker-compose:
+   ```bash
+    docker-compose up
+   ```
 
-5. For production:
-`npm start`
-
-6. If you want use docker-compose:
-`docker-compose up`
-
-7. Deploy in digital ocean:
-Build the Docker image
-`docker build -t greenfinops .`
+8. Deploy in digital ocean:
+    ```bash
+     docker build -t greenfinops .
+    ```
 
 #### Run the container locally to test
 `docker run -p 3000:3000 greenfinops`
