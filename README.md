@@ -51,8 +51,12 @@
    ```bash
    npm run dev
    ```
-5. 🌐 Open localhost:3000 with your browser to see the result.
-
+5. 🌐 Browser/web:
+```bash
+   bash
+   localhost:3000
+   ```
+   
 6. 🏭 For production:
    ```bash
     npm start
